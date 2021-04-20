@@ -1,0 +1,11 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <PackageId>CommonExtensionsNetCore</PackageId>
+    <Version>1.0.1-beta</Version>
+    <Authors>CommonExtension</Authors>
+    <Company>CommonExtension</Company>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+</Project>
