@@ -24,4 +24,4 @@ jobs:
     - name: Pack
       run: dotnet pack -c Release
     - name: Deploy to Nuget
-      run: dotnet nuget push src/CommonExtensionsDoNet/bin/Release/*.nupkg --api-key ${{ secrets.NUGET_TOKEN }} --source https://api.nuget.org/v3/index.json --skip-duplicate
+      run: dotnet nuget push src/CommonExtensionsDotNet/bin/Release/*.nupkg --api-key ${{ secrets.NUGET_TOKEN }} --source https://api.nuget.org/v3/index.json --skip-duplicate
