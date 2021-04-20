@@ -7,7 +7,7 @@ namespace CommonExtensionsDotnet.Tests
     public class ObjectExtensionTests
     {
         [Fact]
-        public void ShouldValidIfObjectIsNull()
+        public void ShouldValidateIfObjectIsNull()
         {
             Object obj = null;
 
@@ -15,7 +15,7 @@ namespace CommonExtensionsDotnet.Tests
         }
 
         [Fact]
-        public void ShouldValidIfObjectIsNotNull()
+        public void ShouldValidateIfObjectIsNotNull()
         {
             Object obj = new Object();
 
