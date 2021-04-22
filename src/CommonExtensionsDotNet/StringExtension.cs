@@ -11,5 +11,10 @@ namespace CommonExtensionsDotNet
         {
             return sentence != null;
         }
+
+        public static bool IsNullOrEmpty(this string sentence)
+        {
+            return string.IsNullOrEmpty(sentence);
+        }
     }
 }

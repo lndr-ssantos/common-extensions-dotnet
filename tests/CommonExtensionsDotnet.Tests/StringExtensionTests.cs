@@ -21,5 +21,15 @@ namespace CommonExtensionsDotnet.Tests
 
             Assert.True(sentence.IsNotNull());
         }
+
+        [Fact]
+        public void ShouldValidateIfSentenseIsNullOrEmpty()
+        {
+            string sentenceOne = "";
+            string sentenceTwo = null;
+
+            Assert.True(sentenceOne.IsNullOrEmpty());
+            Assert.True(sentenceTwo.IsNullOrEmpty());
+        }
     }
 }
