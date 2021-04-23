@@ -12,7 +12,7 @@ namespace CommonExtensionsDotNet
 
         public static bool IsWeekend(this DateTime dateTime)
         {
-            return new[] { DayOfWeek.Saturday, DayOfWeek.Sunday }.Contains(dateTime.DayOfWeek);
+            return dateTime.DayOfWeek == DayOfWeek.Saturday || dateTime.DayOfWeek == DayOfWeek.Sunday;
         }
     }
 }
