@@ -2,9 +2,9 @@
 
   <PropertyGroup>
     <PackageId>CommonExtensionsDotNet</PackageId>
-    <Version>1.0.0/Version>
-    <Authors>CommonExtension</Authors>
-    <Company>CommonExtension</Company>
+    <Version>1.0.0</Version>
+    <PackageProjectUrl>https://github.com/jlfjunior/common-extensions-dotnet</PackageProjectUrl>
+    <Authors>Jose Junior</Authors>
     <TargetFramework>netstandard2.0</TargetFramework>
   </PropertyGroup>
 
